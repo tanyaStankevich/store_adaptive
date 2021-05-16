@@ -1124,11 +1124,17 @@ button:hover {
   .left-nav1 {
     width: 55%;
   }
+  .find {
+    margin-top: 15px;
+  }
   .right-nav2 {
     width: 35%;
   }
   .nav-header-bottom {
     margin-top: 21px;
+  }
+  .nav-header-2 .nav-sl-2 {
+    margin-left: 35px;
   }
   .header-bottom {
     margin-bottom: 20px;

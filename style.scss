@@ -65,6 +65,7 @@ background-color: #ffffff;
 border: 1px solid #e1e1e1;
 display: flex;
 justify-content: space-between;
+
 }
 .find1{
     font-size: 13px;
@@ -896,7 +897,9 @@ border-radius: 50%;
     .left-nav1{
         width: 55%;
     }
-    
+    .find{
+        margin-top: 15px;
+    }
     .right-nav2{
             width: 35%;
     }
@@ -904,6 +907,14 @@ border-radius: 50%;
     .nav-header-bottom{
         margin-top: 21px;
     }
+    .nav-header-2{
+        
+        
+            .nav-sl-2{
+             
+                margin-left: 35px;
+            }
+        }
     .header-bottom{
         margin-bottom: 20px;
     }
