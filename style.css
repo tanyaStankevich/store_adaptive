@@ -902,6 +902,10 @@ button:hover {
   color: #999999;
 }
 
+.column-div .column-div {
+  margin-left: 5px;
+}
+
 .column-div .column-div-p {
   font-family: Arial;
   font-size: 14px;
@@ -1101,6 +1105,10 @@ button:hover {
   background-color: #cccccc;
 }
 
+.down-footer ._but-footer {
+  display: none;
+}
+
 @media screen and (max-width: 980px) {
   .container {
     width: 940px;
@@ -1169,7 +1177,7 @@ button:hover {
     font-weight: 700;
   }
   .item1 {
-    width: 70%;
+    width: 95%;
     height: 346px;
     background-color: #cccccc;
     margin-bottom: 20px;
@@ -1204,7 +1212,7 @@ button:hover {
     font-size: 27px;
     line-height: 35px;
     margin-top: 20px;
-    margin-bottom: 115px;
+    margin-bottom: 100px;
   }
   ._exclusive {
     font-size: 22px;
@@ -1249,15 +1257,15 @@ button:hover {
     margin-right: 5px;
   }
   .item2 {
-    width: 70%;
+    width: 95%;
     height: 148px;
     margin-bottom: 20px;
     margin-right: 20px;
     padding-top: 55px;
   }
   .item3 {
-    width: 70%;
-    height: 426px;
+    width: 95%;
+    height: 425px;
     margin-bottom: 20px;
     margin-right: 20px;
   }
@@ -1274,11 +1282,13 @@ button:hover {
   .hot {
     font-size: 20px;
     line-height: 31px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   ._hot {
     font-size: 15px;
     line-height: 31px;
-    margin-bottom: 415px;
+    margin-bottom: 360px;
   }
   ._item3-mod {
     height: 509px;
@@ -1294,18 +1304,22 @@ button:hover {
     margin-top: 50px;
     margin-bottom: 45px;
   }
-  .cardmain {
-    width: 70%;
-  }
-  .card {
+  .cardmain .card {
+    width: 95%;
     height: 350px;
     margin-bottom: 20px;
   }
   ._card-none {
     display: none;
   }
+  .card-text-mod {
+    width: 95%;
+  }
   ._line-show {
-    width: 50%;
+    width: 40%;
+  }
+  .line {
+    margin-top: 0px;
   }
   ._line-mod {
     margin-top: 50px;
@@ -1313,12 +1327,10 @@ button:hover {
   }
   .column-div {
     padding: 70px 5px 40px;
-    width: 80%;
+    width: 95%;
   }
   .column-div .div-img {
-    width: 95%;
     height: 170px;
-    margin-right: 5px;
   }
   .column-div ._div-img {
     width: 95%;
@@ -1327,6 +1339,9 @@ button:hover {
   .column-div ._div-img2 {
     width: 95%;
     height: 177px;
+  }
+  .column-div .div-poz {
+    width: 95%;
   }
   .column-div ._div-p {
     font-size: 12px;
@@ -1353,8 +1368,10 @@ button:hover {
   }
   .column-div .div-img-map2 {
     display: block;
-    width: 370px;
+    width: 360px;
     height: 130px;
+    padding-left: 10px;
+    padding-bottom: 20px;
   }
   .column-div .div-map-form {
     -webkit-box-orient: vertical;
@@ -1402,8 +1419,16 @@ button:hover {
   .column-div .but-div-but-text {
     margin-right: 5px;
   }
-  ._column-div {
-    width: 95%;
+  ._column-div-width {
+    width: 45%;
+    margin-left: 5px;
+  }
+  ._column-div-width1 {
+    width: 35%;
+  }
+  ._column-div-width2 {
+    width: 15%;
+    margin-right: 5px;
   }
   ._column-div3 {
     padding-bottom: 33px;
@@ -1421,6 +1446,11 @@ button:hover {
   }
   .down-footer .down-footer-right-cards {
     width: 95%;
+  }
+  .down-footer ._but-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=style.css.map */
