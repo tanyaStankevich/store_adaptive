@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -18,12 +19,13 @@
                         <li><a href="#" class="nav-sl">My Account</a></li>
                         <li><a href="#" class="nav-sl">MY Wishlist (0)</a></li>
                         <li><a href="#" class="nav-sl">Checkout</a></li>
-                        <li><a href="#" class="nav-sl">Log In or Register</a></li>
+                        <li><a href="#" class="nav-sl _nav-sl _nav-nodisp">Log In</a></li>
                     </ul>
                 </div>
 
                 <div class="right-nav2">
                     <ul class="right-nav">
+
                         <li>
                             <details>
                                 <summary class="nav-sl">US Dollar</summary>
@@ -34,13 +36,37 @@
                                 <summary class="nav-sl">English</summary>
                             </details>
                         </li>
-                        <li><a href="#" class="nav-sl">My Bag: 0 item(s)</a></li>
+                        <li><a href="#" class="nav-sl _nav-nodisp">My Bag: 0 item(s)</a></li>
 
                     </ul>
                 </div>
+
             </nav>
         </div>
+
+        <div>
+            <ul class="_right-nav2">
+                <li>
+                    <details>
+                        <summary class="nav-sl">US Dollar</summary>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary class="nav-sl">English</summary>
+                    </details>
+                </li>
+                <li><a href="#" class="nav-sl _nav-nodisp">My Bag: 0 item(s)</a></li>
+
+            </ul>
+        </div>
+
         <div class="container mod1">
+            <div class="_logo-mod">
+                <img src="./img/logo.png" alt="logo">
+                <p class="logo-p-my">FENGO</p>
+            </div>
+            <a href="#" class="_nav-nodisp2">Log In or register</a>
             <form action="#" class="find"><input type="text" placeholder="Find it here..." class="find1">
                 <button type="submit" class="poisk"><img src="./img/poisk.png" alt="poisk"></button>
             </form>
@@ -48,10 +74,26 @@
         <div class="container header-bottom">
             <div class="logo">
                 <img src="./img/logo.png" alt="logo">
-                <p class="logo-p">FENGO</p>
+                <p class="logo-p-my">FENGO</p>
             </div>
 
-            <nav class="nav-header-bottom">
+            <div class="container nav-basket-mod">
+                <div class="navigation">
+                    <div class="nav-pol">
+                        <div class="nav-pol-el"></div>
+                        <div class="nav-pol-el"></div>
+                        <div class="nav-pol-el"></div>
+                    </div>
+                    <p class="nav-pol-p">navigation</p>
+                </div>
+                <div class="basket">
+                    <img src="./img/basket_165527.png" alt="basket" class="basket-p-img">
+                    <p class="basket-p">$0.00</p>
+                </div>
+            </div>
+
+
+            <nav class="nav-header-bottom _nav-header-bottom">
                 <div>
                     <ul class="nav-header-2">
                         <li><a href="#" class="nav-sl-2">Fashion</a></li>
@@ -60,99 +102,151 @@
                         <li><a href="#" class="nav-sl-2">Books</a></li>
                         <li><a href="#" class="nav-sl-2">At Home</a></li>
                         <li><a href="#" class="nav-sl-2">Music</a></li>
-                        <li><a href="#" class="nav-sl-2">Sale</a></li>
+                        <li><a href="#" class="nav-sl-2 _nav-sl-2">Sale</a></li>
                     </ul>
                 </div>
+            </nav>
         </div>
-
     </header>
 
-    <section>
 
-        <div class="baner">
-            <div class="container _container">
-                <div class="baner-parag">
-                    <p class="baner-p">Check your</p>
-                    <p class="baner-p _baner-p">autumn style</p>
-                    <p class="baner-p _baner-p1">All the trends you need this season</p>
-                    <p class="baner-p _baner-p2">read it now &#8250</p>
+    <div>
+
+        <div class="baner-main">
+            <div class="baner">
+                <button type="submit" class="but-baner _but-baner1">&#x3C;</button>
+
+                <div class="container _container">
+
+                    <div class="baner-parag _baner-parag">
+                        <p class="baner-p">Check your</p>
+                        <p class="baner-p _baner-p">autumn style</p>
+                        <p class="baner-p _baner-p1">All the trends you need this season</p>
+                        <p class="baner-p _baner-p2">read it now &#8250;</p>
+                    </div>
+
+
+                    <div class=" _baner-parag2">
+                        <div class="_baner-parag2-mod">
+                            <div class="baner320-div">
+                                <div class="baner-parag2-line"></div>
+                                <p class="baner320">you pay less</p>
+                                <div class="baner-parag2-line"></div>
+                            </div>
+                            <p class="baner320 _baner320">everyone else pays attention.</p>
+                            <a class="baner320 _baner320-2" href="#">get your discount &#8250;</a>
+                        </div>
+                    </div>
                 </div>
+                <button type="submit" class="but-baner _but-baner2">&#x3E;</button>
+
+            </div>
+            <div class="three-but">
+                <button type="submit" class="three-but-item"></button>
+                <button type="submit" class="three-but-item"></button>
+                <button type="submit" class="three-but-item"></button>
             </div>
         </div>
 
-        <section class="items">
+        <div class="items">
             <div class="items-fin">
                 <div class="item-fiveblock">
-                    <div class="item1">
-                        <div class="border">
-                            <div class="line_exc">
-                                <div class="line"></div>
-                                <p class="exclusive">exclusive</p>
-                                <div class="line"></div>
+                    <div class="item1-my">
+                        <button type="submit" class="but-baner _but-baner _but-baner1">&#x3C;</button>
+                        <div>
+                            <div class="border-my">
+                                <div class="line_exc-my">
+                                    <div class="line"></div>
+                                    <p class="exclusive-my">exclusive</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="exclusive-my _exclusive ">discount codes &#38; offers</p>
                             </div>
-                            <p class="exclusive _exclusive">discount codes &#38 offers</p>
+                            <p class="exclusive-my _exclusive2 _baner320-2">get your discount &#8250;</p>
                         </div>
-                        <p class="exclusive _exclusive2">get your discount &#8250</p>
+                        <button type="submit" class="but-baner _but-baner _but-baner2">&#x3E;</button>
+                    </div>
+
+                    <div class="_item3">
+                        <div class="_item3-mod-mod">
+                            <p class="black">the</p>
+                            <div class="line_exc-my">
+                                <div class="line _line_mod3"></div>
+                                <p class="hot">hottest styles</p>
+                                <div class="line _line_mod3"></div>
+                            </div>
+
+                            <p class="hot _hot">are here</p>
+                        </div>
+                        <a href="#" class="exclusive-my _exclusive2 _exclusive3">watch now &#8250;</a>
 
                     </div>
+
                     <div class="item-thirdblock">
                         <div class="item-secondblock">
-                            <div class="item2">
-                                <p class="exclusive ">jewelry</p>
-                                <p class="exclusive _exclusive _exclusive4">every third item is free!</p>
-                                <a href="#" class="exclusive _exclusive2 _exclusive3">buy now &#8250</a>
+                            <div class="item2-my">
+                                <p class="exclusive-my exclusive-my-mod">jewelry</p>
+                                <p class="exclusive-my _exclusive _exclusive4">every third item is free!</p>
+                                <a href="#" class="exclusive-my _exclusive2 _exclusive3 _exclusive3-mod">buy now
+                                    &#8250;</a>
                             </div>
-                            <div class="item2">
-                                <div class="line_exc">
+                            <div class="item2-my _item2-my">
+                                <div class="line_exc-my">
                                     <div class="line _line_mod"></div>
-                                    <p class="exclusive _exclusive5">accessories</p>
+                                    <p class="exclusive-my _exclusive5">accessories</p>
                                     <div class="line _line_mod"></div>
                                 </div>
 
-                                <p class="exclusive _exclusive _exclusive4">Complete your style</p>
-                                <a href="#" class="exclusive _exclusive2 _exclusive3">get the look &#8250</a>
+                                <p class="exclusive-my _exclusive _exclusive4">Complete your style</p>
+                                <a href="#" class="exclusive-my _exclusive2 _exclusive3 _exclusive3-mod">get the look
+                                    &#8250;</a>
                             </div>
                         </div>
                         <div class="item3">
-                            <p class="exclusive _exclusive6">LOOKBOOK</p>
-                            <div class="line_exc">
+                            <p class="exclusive-my _exclusive6">LOOKBOOK</p>
+                            <div class="line_exc-my">
                                 <div class="line _line_mod2"></div>
                                 <p class="wom">women</p>
                                 <div class="line _line_mod2"></div>
                             </div>
-                            <p class="exclusive _exclusive6 _exclusive7">autumn 2013</p>
-                            <a href="#" class="exclusive _exclusive2 _exclusive3">get the look &#8250</a>
+                            <p class="exclusive-my _exclusive6 _exclusive7">autumn 2013</p>
+                            <a href="#" class="exclusive-my _exclusive2 _exclusive3">get the look &#8250;</a>
+                            <div class="_three-but">
+                                <button type="submit" class="three-but-item"></button>
+                                <button type="submit" class="three-but-item"></button>
+                                <button type="submit" class="three-but-item"></button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="item-forthblock">
                     <div class="item3 _item3-mod">
                         <p class="black">the</p>
-                        <div class="line_exc">
+                        <div class="line_exc-my">
                             <div class="line _line_mod3"></div>
                             <p class="hot">hottest styles</p>
                             <div class="line _line_mod3"></div>
                         </div>
 
                         <p class="hot _hot">are here</p>
-                        <a href="#" class="exclusive _exclusive2 _exclusive3">watch now &#8250</a>
+                        <a href="#" class="exclusive-my _exclusive2 _exclusive3">watch now &#8250;</a>
 
                     </div>
-                    <div class="item2">
-                        <p class="exclusive _exclusive5 _exclusivefin">what's new?</p>
+                    <div class="item2-my _item2-my-top _item2-my">
+                        <p class="exclusive-my _exclusive5 _exclusive5-mod">what's new?</p>
                     </div>
                 </div>
 
             </div>
-        </section>
+        </div>
 
         <nav class="nav-poz">
             <div class="nav-card-head">
                 <ul class="left-nav _left-nav-mod">
-                    <li><a href="#" class="nav_card">new arrivals</a></li>
-                    <li><a href="#" class="nav_card">Featured</a></li>
-                    <li><a href="#" class="nav_card">Special</a></li>
-                    <li><a href="#" class="nav_card">bestsellers</a></li>
+                    <li class="nav_card-li"><a href="#" class="nav_card">new arrivals</a></li>
+                    <li class="nav_card-li"><a href="#" class="nav_card">Featured</a></li>
+                    <li class="nav_card-li"><a href="#" class="nav_card">Special</a></li>
+                    <li class="nav_card-li"><a href="#" class="nav_card">bestsellers</a></li>
                 </ul>
             </div>
         </nav>
@@ -191,9 +285,11 @@
                     </div>
                     <p class="price">$187</p>
                 </div>
+
                 <div class="sale">
                     -50%
                 </div>
+
                 <div class="hov">
                     <div class="card-hov-brd">
                         <button type="submit" class="card-hov">add to bag</button>
@@ -236,7 +332,7 @@
                     </div>
                     <p class="price">$187</p>
                 </div>
-                <div class="new">
+                <div class="sale new">
                     NEW
                 </div>
                 <div class="hov">
@@ -296,7 +392,7 @@
                 </div>
             </div>
 
-            <div class="cardmain">
+            <div class="cardmain _card-none2">
                 <div class="card"></div>
                 <div class="card-text-mod">
                     <div>
@@ -305,7 +401,7 @@
                     </div>
                     <p class="price">$187</p>
                 </div>
-                <div class="out">
+                <div class="sale new out">
                     Out of stock
                 </div>
                 <div class="hov">
@@ -343,91 +439,106 @@
 
         </div>
 
-        <div class="line_exc _line-mod">
+        <div class="line_exc-my _line-mod">
             <div class="line _line_mod2 _line-show"></div>
             <p class="show-more">Show More</p>
             <div class="line _line_mod2 _line-show"></div>
         </div>
 
-    </section>
+    </div>
 
     <footer class="footer_back">
         <div class="footer_back2">
-            <div class="column">
+            <div class="column _column-div-width">
 
-                <div class="column-div">
-                    <h3 class="div-h">About fengo shop</h3>
-                    <div class="div-poz">
-                        <div class="div-img"></div>
-                        <div>
-                            <p class="div-p">Morbi pretium odio in dapibus varius. Integer sagittis, tellus ac venenatis
-                                venenatis, ipsum ligula
-                                auctor lectus,suscipit velit quam quis turpis. Fusce scelerisque aliquet commodo. Sed
-                                lobortis
-                                laoreet risus vitae tincidunt. Ut consectetur nec purus in egestas. Pellentesque
-                                vehicula
-                                urna
-                                purus.</p>
-                            <a href="#" class="div-a">Read more &#8250</a>
+                <div class="column-div  _column-div-width">
+                    <div class="align-cont">
+                        <h3 class="div-h">About fengo shop</h3>
+                        <div class="div-poz">
+                            <div class="div-img"></div>
+                            <div>
+                                <p class="div-p">Morbi pretium odio in dapibus varius. Integer sagittis, tellus ac
+                                    venenatis
+                                    venenatis, ipsum ligula
+                                    auctor lectus,suscipit velit quam quis turpis. Fusce scelerisque aliquet commodo.
+                                    Sed
+                                    lobortis
+                                    laoreet risus vitae tincidunt. Ut consectetur nec purus in egestas. Pellentesque
+                                    vehicula
+                                    urna
+                                    purus.</p>
+                                <a href="#" class="div-a">Read more &#8250;</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="column-div _column-div7">
-                    <div class="div-h-but">
-                        <h3 class="div-h">From the Blog</h3>
-                        <div>
-                            <button type="submit" class="div-but _div-but _div-but-r">&#8249</button>
-                            <button type="submit" class="div-but _div-but-r">&#8250</button>
+                    <div class="align-cont">
+                        <div class="div-h-but">
+                            <h3 class="div-h">From the Blog</h3>
+                            <div>
+                                <button type="submit" class="div-but _div-but _div-but-r">&#8249;</button>
+                                <button type="submit" class="div-but _div-but-r">&#8250;</button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="div-poz">
-                        <div>
-                            <div class="div-img _div-img"></div>
-                            <p class="div-p _div-p">Pellentesque vehicula urna purus</p>
-                        </div>
+                        <div class="div-poz">
+                            <div>
+                                <div class="div-img _div-img"></div>
+                                <p class="div-p _div-p">Pellentesque vehicula urna purus</p>
+                            </div>
 
-                        <div>
-                            <div class="div-img _div-img"></div>
-                            <p class="div-p _div-p">Curabitur faucibus aliquam felis quis</p>
+                            <div class="din_none">
+                                <div class="div-img _div-img"></div>
+                                <p class="div-p _div-p">Curabitur faucibus aliquam felis quis</p>
 
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
                 <div class="column-div _column-div7">
-                    <h3 class="div-h">QUICK CONTACT</h3>
-                    <div class="div-map-form">
-                        <img src="./img/map.png" alt="map" class="div-img-map">
-                        <img src="./img/map2.png" alt="map2" class="div-img-map2">
-                        <form action="#" class="div-form">
-                            <input type="text" placeholder="Enter your name" class="div-inp">
-                            <input type="email" placeholder="Enter your E-mail" class="div-inp">
-                            <input type="text" placeholder="Enter your message" class="div-inp _div-inp">
-                            <a href="#" class="div-a">Send message &#8250</a>
+                    <div class="align-cont">
+                        <h3 class="div-h">QUICK CONTACT</h3>
+                        <div class="div-map-form">
+                            <div class="_div-map-form">
+                                <img src="./img/map.png" alt="map" class="div-img-map">
+                                <p class="fengo">FENGO</p>
+                                <img src="./img/poiter_140382.png" alt="poiter" class="poiter">
+                            </div>
+                            <img src="./img/map2.png" alt="map2" class="div-img-map2">
+                            <img src="./img/map3.png" alt="map3" class="div-img-map3">
+                            <form action="#" class="div-form">
+                                <input type="text" placeholder="Enter your name" class="div-inp">
+                                <input type="email" placeholder="Enter your E-mail" class="div-inp">
+                                <input type="text" placeholder="Enter your message" class="div-inp _div-inp">
+                                <a href="#" class="div-a">Send message &#8250;</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column-div _column-div7 _column-div8 _column-div9">
+                    <div class="align-cont">
+                        <form action="#" class="div-subm-but-form">
+                            <input type="text" placeholder="Enter your e-mail for stay in the know" class="inp-mod">
+                            <button type="submit" class="div-subm-but">&#8250;</button>
                         </form>
                     </div>
-                </div>
-
-
-                <div class="column-div _column-div7 _column-div8">
-                    <form action="#" class="div-subm-but-form">
-                        <input type="text" placeholder="Enter your e-mail for stay in the know" class="inp-mod">
-                        <button type="submit" class="div-subm-but">&#8250</button>
-                    </form>
                 </div>
             </div>
 
 
 
-            <div class="column">
+            <div class="_column _column-div-width1">
                 <div class="column-div _column-div">
                     <div class="div-h-but">
                         <h3 class="div-h">Most favorite</h3>
                         <div>
-                            <button type="submit" class="div-but _div-but _div-but-r">&#8249</button>
-                            <button type="submit" class="div-but _div-but-r">&#8250</button>
+                            <button type="submit" class="div-but _div-but _div-but-r">&#8249;</button>
+                            <button type="submit" class="div-but _div-but-r">&#8250;</button>
                         </div>
                     </div>
 
@@ -440,7 +551,7 @@
                             </div>
                         </div>
 
-                        <div>
+                        <div class="din_none">
                             <div class="div-img _div-img _div-img2"></div>
                             <div class="div-price-main">
                                 <p class="div-p _div-p _div-p2">Pale pink and black buttoned dress</p>
@@ -456,7 +567,7 @@
                         <button type="submit" class="div-but _div-but2">Follow</button>
                     </div>
                     <div class="mini-div">
-                        <img src="./img/label.png" alt="label">
+                        <img src="./img/label.png" alt="label" class="mini-div-img">
                         <div>
                             <p class="lab-p">Promokit</p>
                             <p class="lab-p2">@marek_mnishek</p>
@@ -476,9 +587,9 @@
                     </div>
 
                     <div class="mini-div">
-                        <img src="./img/label.png" alt="label">
+                        <img src="./img/label.png" alt="label" class="mini-div-img">
                         <div>
-                            <p class="lab-p">Promokit</p>
+                            <p class=" lab-p">Promokit</p>
                             <p class="lab-p2">@marek_mnishek</p>
                         </div>
                     </div>
@@ -497,7 +608,7 @@
                 </div>
 
 
-                <div class="column-div _column-div _column-div3 _column-div7 _column-div8">
+                <div class="column-div _column-div _column-div3 _column-div7 _column-div8 _column-div9">
                     <div class="div-h-but">
                         <h3 class="div-h">facebook</h3>
                         <button type="submit" class="div-but _div-but2 _div-but3">LIKE</button>
@@ -522,9 +633,9 @@
 
 
 
-            <nav class="column">
+            <nav class="_column2 _column-div-width2">
                 <div class="column-div _column-div2">
-                    <h3 class="div-h">Most favorite</h3>
+                    <h3 class="div-h">Information</h3>
                     <ul class="nav-ul-foot">
                         <li><a href="#" class="nav-a">New products</a></li>
                         <li><a href="#" class="nav-a">Top sellers</a></li>
@@ -552,8 +663,8 @@
                 <div class="column-div _column-div2 _column-div7">
                     <h3 class="div-h">CUSTOMER SERVICE</h3>
                     <ul class="nav-ul-foot">
-                        <li><a href="#" class="nav-a">Help &#38 contact</a></li>
-                        <li><a href="#" class="nav-a">Shipping &#38 taxes</a></li>
+                        <li><a href="#" class="nav-a">Help &#38; contact</a></li>
+                        <li><a href="#" class="nav-a">Shipping &#38; taxes</a></li>
                         <li><a href="#" class="nav-a">Return policy</a></li>
                         <li><a href="#" class="nav-a">Careers</a></li>
                         <li><a href="#" class="nav-a">Affiliates</a></li>
@@ -562,7 +673,7 @@
                     </ul>
                 </div>
 
-                <div class="column-div _column-div2 _column-div7 _column-div8">
+                <div class="column-div _column-div2 _column-div7 _column-div8 _column-div9">
                     <h3 class="div-h">CONTACT INFO</h3>
                     <ul class="nav-ul-foot">
                         <li><a href="#" class="nav-a">Vigo Shop Ltd</a></li>
@@ -573,10 +684,10 @@
                         <li><a href="#" class="nav-a">Working hours: 9 AM - 8 PM</a></li>
 
                     </ul>
-
+                </div>
             </nav>
         </div>
-        <section class="down-footer">
+        <div class="down-footer">
             <div class="container _container5">
                 <div>
                     <div class="down-footer-left-cards">
@@ -587,30 +698,36 @@
                         <img src="./img/credit_card5.png" alt="card5" class="footer-img">
                         <img src="./img/credit_card6.png" alt="card6" class="footer-img">
                     </div>
-                    <p class="down-footer-p">&copy 2013 Powered by WooCommerce&#8482. All Rights Reserved.</p>
+                    <p class="down-footer-p">&copy; 2013 Powered by WooCommerce &#8482;. All Rights Reserved.</p>
                 </div>
 
                 <div>
                     <div class="down-footer-right-cards">
-                        <a href="#" class="footer-a"><img src="./img/f.png" alt="fb"></a>
-                        <a href="#" class="footer-a"><img src="./img/t.png" alt="telegramm"></a>
+                        <a href="#" class="footer-a _footer-a-f">f</a>
+                        <a href="#" class="footer-a _footer-a-f">t</a>
                         <a href="#" class="footer-a"><img src="./img/wifi.png" alt="wifi"></a>
                         <a href="#" class="footer-a"><img src="./img/kv.png" alt="kvadrat"></a>
-                        <a href="#" class="footer-a"><img src="./img/in.png" alt="instagram"></a>
+                        <a href="#" class="footer-a  _footer-a-f">in</a>
                         <a href="#" class="footer-a"><img src="./img/krug.png" alt="krug"></a>
-                        <a href="#" class="footer-a"><img src="./img/skype.png" alt="skype"></a>
+                        <a href="#" class="footer-a  _footer-a-f">s</a>
                         <a href="#" class="footer-a"><img src="./img/mail.png" alt="mail"></a>
                     </div>
 
 
                 </div>
+                <p class="_down-footer-p">&copy; 2013 Powered by WooCommerce &#8482;. All Rights Reserved.</p><br>
+                <div class="but-footer-class_"><button type="submit" class="but-footer_">&#923;</button></div>
+                <div class="_but-footer-class">
+                    <button type="submit" class=" _but-footer">&#923;</button>
+                </div>
             </div>
-            <div>
-                <button type="submit" class="but-footer">&#923</button>
+
+            <div class="but-footer-class">
+                <button type="submit" class="but-footer">&#923;</button>
             </div>
 
 
-        </section>
+        </div>
     </footer>
 </body>
 
